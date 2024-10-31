@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f1d475;
     color: #333;
     text-align: center;
 }
@@ -23,7 +23,7 @@ header .container {
 }
 
 header .logo {
-    width: 70px;  /* تكبير الحجم */
+    width: 80px;  /* تكبير الحجم */
     height: auto;
 }
 
