@@ -14,90 +14,103 @@
             <img src="Logo-Kafcoffe.png" alt="لوغو كاف كوفي" class="logo">
         </div>
     </header>
-    
-    
-    
 
     <section class="menu">
         <h2>الحلويات</h2>
         <button onclick="toggleDisplay('desserts')">عرض الحلويات</button>
-        <table id="desserts" style="display:none;">
-            <tr>
-                <th>اسم المنتج (العربية)</th>
-                <th>Product Name (English)</th>
-                <th>السعر (EUR)</th>
-            </tr>
-            <tr><td>كيك الشوكولاتة</td><td>Chocolate Cake</td><td>€5.00</td></tr>
-            <tr><td>بسكويت بالكراميل</td><td>Caramel Biscuits</td><td>€3.00</td></tr>
+        <div id="desserts" class="product-grid" style="display:none;">
+            <div class="product-card">
+                <h3>كيك الشوكولاتة</h3>
+                <p>Chocolate Cake</p>
+                <p>€5.00</p>
+                
+            </div>
+            <div class="product-card">
+                <h3>بسكويت بالكراميل</h3>
+                <p>Caramel Biscuits</p>
+                <p>€3.00</p>
+                
+            </div>
             <!-- أضف المزيد من المنتجات هنا حتى 30 منتجًا -->
-        </table>
+        </div>
 
         <h2>المشروبات الساخنة</h2>
         <button onclick="toggleDisplay('hot-drinks')">عرض المشروبات الساخنة</button>
-        <table id="hot-drinks" style="display:none;">
-            <tr>
-                <th>اسم المنتج (العربية)</th>
-                <th>Product Name (English)</th>
-                <th>السعر (EUR)</th>
-            </tr>
-            <tr><td>إسبريسو</td><td>Espresso</td><td>€2.50</td></tr>
-            <tr><td>كابتشينو</td><td>Cappuccino</td><td>€3.00</td></tr>
+        <div id="hot-drinks" class="product-grid" style="display:none;">
+            <div class="product-card">
+                <h3>إسبريسو</h3>
+                <p>Espresso</p>
+                <p>€2.50</p>
+                
+            </div>
+            <div class="product-card">
+                <h3>كابتشينو</h3>
+                <p>Cappuccino</p>
+                <p>€3.00</p>
+                
+            </div>
             <!-- أضف المزيد من المنتجات هنا حتى 20 منتجًا -->
-        </table>
+        </div>
 
         <h2>المشروبات الباردة</h2>
         <button onclick="toggleDisplay('cold-drinks')">عرض المشروبات الباردة</button>
-        <table id="cold-drinks" style="display:none;">
-            <tr>
-                <th>اسم المنتج (العربية)</th>
-                <th>Product Name (English)</th>
-                <th>السعر (EUR)</th>
-            </tr>
-            <tr><td>آيس كوفي</td><td>Iced Coffee</td><td>€3.00</td></tr>
-            <tr><td>فرابتشينو</td><td>Frappe</td><td>€3.50</td></tr>
+        <div id="cold-drinks" class="product-grid" style="display:none;">
+            <div class="product-card">
+                <h3>آيس كوفي</h3>
+                <p>Iced Coffee</p>
+                <p>€3.00</p>
+                
+            </div>
+            <div class="product-card">
+                <h3>فرابتشينو</h3>
+                <p>Frappe</p>
+                <p>€3.50</p>
+                
+            </div>
             <!-- أضف المزيد من المنتجات هنا حتى 50 منتجًا -->
-        </table>
+        </div>
 
         <h2>الكوكتيلا</h2>
         <button onclick="toggleDisplay('cocktails')">عرض الكوكتيلا</button>
-        <table id="cocktails" style="display:none;">
-            <tr>
-                <th>اسم المنتج (العربية)</th>
-                <th>Product Name (English)</th>
-                <th>السعر (EUR)</th>
-            </tr>
-            <tr><td>كوكتيلا الفاكهة</td><td>Fruit Cocktail</td><td>€4.00</td></tr>
-            <tr><td>كوكتيلا التفاح</td><td>Apple Cocktail</td><td>€4.50</td></tr>
+        <div id="cocktails" class="product-grid" style="display:none;">
+            <div class="product-card">
+                <h3>كوكتيلا الفاكهة</h3>
+                <p>Fruit Cocktail</p>
+                <p>€4.00</p>
+                
+            </div>
+            <div class="product-card">
+                <h3>كوكتيلا التفاح</h3>
+                <p>Apple Cocktail</p>
+                <p>€4.50</p>
+            
+            </div>
             <!-- أضف المزيد من المنتجات هنا حتى 20 منتجًا -->
-        </table>
+        </div>
     </section>
+
+    <div class="container">
+        <p> instagram : <a href="https://www.instagram.com/caf_coffee_sy">@caf_coffee_sy</a></p>
+        <p> حماه الجلاء موقف الراس </p>
+        <p><a href="https://wa.me/message/FEDYMXEQBT2BD1" class="whatsapp-button">اطلب عبر واتساب</a></p>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 caf_coffee جميع الحقوق محفوظة </p>
+        </div>
+    </footer>
 
     <script>
         function toggleDisplay(sectionId) {
             var element = document.getElementById(sectionId);
             if (element.style.display === "none") {
-                element.style.display = "table";
+                element.style.display = "block";
             } else {
                 element.style.display = "none";
             }
         }
+
     </script>
-           <div class="container">
-            <p> instagram : <a href="https://www.instagram.com/caf_coffee_sy">@caf_coffee_sy</a></p>
-            <p> حماه الجلاء موقف الراس </p>
-            <p><a href="https://wa.me/message/FEDYMXEQBT2BD1" class="whatsapp-button">اطلب عبر واتساب</a></p>
-        </div>
-        
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2024 caf_coffee جميع الحقوق محفوظة </p>
-            </div>
-        </footer>        
 </body>
 </html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>caf_coffee</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
