@@ -7,12 +7,12 @@
     "description": "أفضل تطبيق لشراء القهوة والحلويات.",
     "icons": [
         {
-            "src": "images/logo.png",
+            "src": "images/Logo-Kafcoffe.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/logo.png",
+            "src": "images/logLogo-Kafcoffeo.png",
             "sizes": "512x512",
             "type": "image/png"
         }
