@@ -100,19 +100,7 @@ button:hover {
     background-color: #FFA500;
 }
 
-.whatsapp-button {
-    background-color: #25D366;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-}
 
-.whatsapp-button:hover {
-    background-color: #128C7E;
-}
 
 footer {
     background-color: #a67b5b;  /* اللون البني */
